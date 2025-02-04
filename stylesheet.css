@@ -1,0 +1,19 @@
+.BeispielBild{
+    width: 500px;
+}
+h1{
+    color: blue;
+}
+.KI-Bild{
+    width: 500px;
+}
+.con1{
+    width: 550px;
+}
+.con2{
+    width: 550px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
