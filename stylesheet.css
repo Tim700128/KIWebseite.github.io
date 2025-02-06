@@ -2,9 +2,20 @@
     width: 500px;
 }
 h1{
-    color: blue;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color:#555;
+    color: white;
 }
 .KI-Bild{
+    width: 500px;
+}
+.generatedImage{
     width: 500px;
 }
 .con1{
@@ -16,4 +27,52 @@ h1{
 .container{
     display: flex;
     flex-wrap: wrap;
+}
+/* Header Styling */
+header {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: left;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+/* Hover-Effekt */
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #333;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 15px 0;
+    padding-left: 10px;
+   
+}
+.footerBoxes{
+    flex: 1;
+    min-width: 300px;
+    max-width: 300px;
+    
 }

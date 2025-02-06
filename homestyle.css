@@ -1,0 +1,24 @@
+.container2{
+    display: flex;
+    border-style:dashed;
+    flex-wrap: wrap;
+    
+}
+.block1{
+    width: 400px;
+    border-style: groove;
+    border-radius: 6px;
+    border-color: black;
+}
+.block2{
+    width: 400px;
+    border-style: groove;
+    border-radius: 6px;
+    border-color: black;
+}
+.block3{
+    width: 400px;
+    border-style: groove;
+    border-radius: 6px;
+    border-color: black;
+}
